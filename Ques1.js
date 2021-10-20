@@ -1,4 +1,4 @@
-function cToF(celsius) 
+function convertToFahrenheit(celsius) 
 {
   var cTemp = celsius;
   var cToFahr = cTemp * 9 / 5 + 32;
@@ -6,12 +6,12 @@ function cToF(celsius)
     console.log(message);
 }
 
-function fToC(fahrenheit) 
+function convertToCelsius(fahrenheit) 
 {
   var fTemp = fahrenheit;
   var fToCel = (fTemp - 32) * 5 / 9;
   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
     console.log(message);
 } 
-cToF(80);
-fToC(25);
+convertToFahrenheit(80);
+convertToCelsius(25);
