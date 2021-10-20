@@ -13,7 +13,7 @@ do{
 
 console.log("\n TO DO LIST");
 
-for ( var i in ToDoArray){
+for ( let i in ToDoArray){
     console.log("Title: ", ToDoArray[i].title);
-    console.log("Description: ", ToDoArray.description);
+    console.log("Description: ", ToDoArray[i].description);
     }
